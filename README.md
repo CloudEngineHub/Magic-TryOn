@@ -16,5 +16,5 @@
 
 - [ ] Release the source code
 - [ ] Release the demo and pretrained weights
-- [ ] Release the testing files
-- [ ] Release the training files
+- [ ] Release the testing file
+- [ ] Release the training file
