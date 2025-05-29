@@ -7,7 +7,7 @@
   <a href="https://github.com/vivoCameraResearch/Magic-TryOn" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub' alt='GitHub'>
   </a>
-  <a href="[[https://github.com/vivoCameraResearch/Magic-TryOn/LICENCE.txt]](http://www.apache.org/licenses/LICENSE-2.0)" style="margin: 0 2px;">
+  <a href="http://www.apache.org/licenses/LICENSE-2.0" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/License-CC BY--NC--SA--4.0-lightgreen?style=flat&logo=Lisence' alt='License'>
   </a>
 </div>
