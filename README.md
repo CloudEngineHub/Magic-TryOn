@@ -6,8 +6,8 @@
 
 
 ## ✅ To-Do List for MagicTryOn Release
-
+### We plan to release the source code, demo, and pretrained weights in mid-June.
 - [ ] Release the source code
 - [ ] Release the demo and pretrained weights
-- [ ] Release the testing file
-- [ ] Release the training file
+- [ ] Release the testing scripts
+- [ ] Release the training scripts
