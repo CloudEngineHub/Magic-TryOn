@@ -41,7 +41,7 @@ pip install -r requirements.txt
 # or
 conda env create -f environment.yaml
 ```
-If you encounter an error while installing Flash Attention, please [**manually download**](https://github.com/Dao-AILab/flash-attention/releases) the installation package based on your Python version, CUDA version, and Torch version, and install it using ***pip install***.
+If you encounter an error while installing Flash Attention, please [**manually download**](https://github.com/Dao-AILab/flash-attention/releases) the installation package based on your Python version, CUDA version, and Torch version, and install it using `pip install flash_attn-2.7.3+cu12torch2.2cxx11abiFALSE-cp312-cp312-linux_x86_64.whl`.
 
 Use the following command to download the weights:
 ```PowerShell
@@ -141,6 +141,9 @@ Our code is modified based on [VideoX-Fun](https://github.com/aigc-apps/VideoX-F
 
 ## 😊 License
 All the materials, including code, checkpoints, and demo, are made available under the [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. You are free to copy, redistribute, remix, transform, and build upon the project for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
+
+## ⭐ Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=vivoCameraResearch/Magic-TryOn&type=Date)](https://www.star-history.com/#vivoCameraResearch/Magic-TryOn&Date)
 
 ## 🤩 Citation
 
