@@ -74,7 +74,7 @@ Before performing customized try-on, you need to complete the following five ste
     ```
 
 2. **Cloth Line Map**  
-   Extract the structural lines or sketch of the garment using [**AniLines-Anime-Lineart-Extractor**](https://github.com/zhenglinpan/AniLines-Anime-Lineart-Extractor). Download the pre-trained models from this [**link**](https://drive.google.com/file/d/12U1Mwlonoipk2Yvr12mNaFB30foy420o/view?usp=sharing) and put them in the `inference/customize/AniLines/weights` folder.
+   Extract the structural lines or sketch of the garment using [**AniLines-Anime-Lineart-Extractor**](https://github.com/zhenglinpan/AniLines-Anime-Lineart-Extractor). Download the pre-trained models from this [**link**](https://drive.google.com/file/d/1oazs4_X1Hppj-k9uqPD0HXWHEQLb9tNR/view?usp=sharing) and put them in the `inference/customize/AniLines/weights` folder.
    ```PowerShell
     cd inference/customize/AniLines
     python infer.py --dir_in datasets/garment/vivo/vivo_garment --dir_out datasets/garment/vivo/vivo_garment_anilines --mode detail --binarize -1 --fp16 True --device cuda:1
