@@ -19,7 +19,7 @@
 - **`2025/06/09`**: 🎉 We are excited to announce that the ***code*** of [**MagicTryOn**](https://github.com/vivoCameraResearch/Magic-TryOn/) have been released! Check it out! ***The weights are on the way and are expected to be released on June 14***. You can download the weights from 🤗[**HuggingFace**](https://huggingface.co/LuckyLiGY/MagicTryOn) once they are open-sourced.
 - **`2025/05/27`**: Our [**Paper on ArXiv**](https://arxiv.org/abs/2505.21325v2) is available 🥳!
 
-## 😁 To-Do List for MagicTryOn Release
+## ✅ To-Do List for MagicTryOn Release
 - ✅ Release the source code
 - ✅ Release the inference demo and pretrained weights
 - ✅ Release the customized try-on utilities
