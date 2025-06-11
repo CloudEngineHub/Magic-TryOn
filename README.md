@@ -81,7 +81,7 @@ Before performing customized try-on, you need to complete the following five ste
     ```
 
 3. **Mask**  
-   Generate the agnostic mask of the garment, which is essential for region control during try-on. Please [**download**]() the required checkpoint for obtaining the agnostic mask. The checkpoint needs to be placed in the `inference/customize/gen_mask/ckpt` folder.
+   Generate the agnostic mask of the garment, which is essential for region control during try-on. Please [**download**](https://drive.google.com/file/d/1E2JC_650g69AYrN2ZCwc8oz8qYRo5t5s/view?usp=sharing) the required checkpoint for obtaining the agnostic mask. The checkpoint needs to be placed in the `inference/customize/gen_mask/ckpt` folder.
 
    (1) You need to rename your video to `video.mp4`, and then construct the folders according to the following directory structure.
     ```
