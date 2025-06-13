@@ -16,7 +16,7 @@
 </div>
 
 ## 📣 News 
-- **`2025/06/09`**: 🎉 We are excited to announce that the ***code*** of [**MagicTryOn**](https://github.com/vivoCameraResearch/Magic-TryOn/) have been released! Check it out! ***The weights are on the way and are expected to be released on June 14***. You can download the weights from 🤗[**HuggingFace**](https://huggingface.co/LuckyLiGY/MagicTryOn) once they are open-sourced.
+- **`2025/06/09`**: 🎉 We are excited to announce that the ***code*** of [**MagicTryOn**](https://github.com/vivoCameraResearch/Magic-TryOn/) have been released! Check it out! ***The weights are released ！！！***. You can download the weights from 🤗[**HuggingFace**](https://huggingface.co/LuckyLiGY/MagicTryOn).
 - **`2025/05/27`**: Our [**Paper on ArXiv**](https://arxiv.org/abs/2505.21325v2) is available 🥳!
 
 ## ✅ To-Do List for MagicTryOn Release
@@ -51,17 +51,17 @@ HF_ENDPOINT=https://hf-mirror.com huggingface-cli download LuckyLiGY/MagicTryOn 
 ### 1. Image TryOn
 You can directly run the following command to perform image try-on demo. If you want to modify some inference parameters, please make the changes inside the `predict_image_tryon_up.py` file.
 ```PowerShell
-CUDA_VISIBLE_DEVICES=0 python predict_image_tryon_up.py
+CUDA_VISIBLE_DEVICES=0 python inference/image_tryon/predict_image_tryon_up.py
 
-CUDA_VISIBLE_DEVICES=1 python predict_image_tryon_low.py
+CUDA_VISIBLE_DEVICES=1 python inference/image_tryon/predict_image_tryon_low.py
 ```
 
 ### 2. Video TryOn
 You can directly run the following command to perform image try-on demo. If you want to modify some inference parameters, please make the changes inside the `predict_video_tryon_up.py` file.
 ```PowerShell
-CUDA_VISIBLE_DEVICES=0 python predict_video_tryon_up.py
+CUDA_VISIBLE_DEVICES=0 python inference/video_tryon/predict_video_tryon_up.py
 
-CUDA_VISIBLE_DEVICES=1 python predict_video_tryon_low.py
+CUDA_VISIBLE_DEVICES=1 python inference/video_tryon/predict_video_tryon_low.py
 ```
 
 ### 3. Customize TryOn
@@ -76,8 +76,7 @@ Before performing customized try-on, you need to complete the following five ste
 2. **Cloth Line Map**  
    Extract the structural lines or sketch of the garment using [**AniLines-Anime-Lineart-Extractor**](https://github.com/zhenglinpan/AniLines-Anime-Lineart-Extractor). Download the pre-trained models from this [**link**](https://drive.google.com/file/d/1oazs4_X1Hppj-k9uqPD0HXWHEQLb9tNR/view?usp=sharing) and put them in the `inference/customize/AniLines/weights` folder.
    ```PowerShell
-    cd inference/customize/AniLines
-    python infer.py --dir_in datasets/garment/vivo/vivo_garment --dir_out datasets/garment/vivo/vivo_garment_anilines --mode detail --binarize -1 --fp16 True --device cuda:1
+    python inference/customize/AniLines/infer.py --dir_in datasets/garment/vivo/vivo_garment --dir_out datasets/garment/vivo/vivo_garment_anilines --mode detail --binarize -1 --fp16 True --device cuda:1
     ```
 
 3. **Mask**  
@@ -104,8 +103,7 @@ Before performing customized try-on, you need to complete the following five ste
     (3) Run the following command to obtain the agnostic mask.
 
     ```PowerShell
-    cd inference/customize/gen_mask
-    python app_mask.py
+    python inference/customize/gen_mask/app_mask.py
     # if extract the mask for lower_body or dresses, please modify line 65.
     # if lower_body:
     # mask, _ = get_mask_location('dc', "lower_body", model_parse, keypoints)
@@ -124,8 +122,7 @@ Before performing customized try-on, you need to complete the following five ste
 
    (2) Run the following command:
    ```PowerShell
-    cd inference/customize/detectron2/projects/DensePose
-    bash run.sh
+    bash inference/customize/detectron2/projects/DensePose/run.sh
     ```
     (3) The generated results will be stored in the `datasets/person/customize/video/00001/image-densepose` folder.
 
