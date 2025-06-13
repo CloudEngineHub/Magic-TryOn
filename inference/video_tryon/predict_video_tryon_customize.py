@@ -315,7 +315,7 @@ for cloth_id in cloth_id_book:
 
     os.makedirs(os.path.join(save_path, "sanity_check"), exist_ok=True)
     video_name = video_id.split('.')[0]
-    cloth_name = cloth_id_up.split('.')[0]
+    cloth_name = cloth_id.split('.')[0]
 
     for idx, (pixel_value, masked_video_value, control_pixel_value, mask_value, cloth_pixel_value, cloth_line_pixel_value) in enumerate(zip(
         input_video, masked_video, pose_video, mask_video, cloth_image, cloth_line_image)):
