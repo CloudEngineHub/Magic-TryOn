@@ -18,5 +18,5 @@ for ID in "${FOLDER_IDS[@]}"; do
   OUTPUT_DIR="${BASE_PATH}/${FOLDER_ID}/"
   
   echo "Processing folder: $FOLDER_ID"
-  python apply_net.py show "$CONFIG" "$MODEL_URL" "$INPUT_DIR" "$OUTPUT_DIR" dp_segm -v
+  python inference/customize/detectron2/projects/DensePose/apply_net.py show "$CONFIG" "$MODEL_URL" "$INPUT_DIR" "$OUTPUT_DIR" dp_segm -v
 done
