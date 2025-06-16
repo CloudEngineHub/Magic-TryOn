@@ -128,11 +128,11 @@ Before performing customized try-on, you need to complete the following five ste
 
 After completing the above steps, run the `image2video.py` file to generate the required customized videos: `mask.mp4`, `agnostic.mp4`, and `densepose.mp4`. Then, run the following command:
 ```PowerShell
-CUDA_VISIBLE_DEVICES=0 python predict_video_tryon_customize.py
+CUDA_VISIBLE_DEVICES=0 python inference/video_tryon/predict_video_tryon_customize.py
 ```
 
 ## 😘 Acknowledgement
-Our code is modified based on [VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/tree/main). We adopt [Wan2.1-I2V-14B](https://github.com/Wan-Video/Wan2.1) as the base model. We use [SCHP](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing/tree/master), [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), and [DensePose](https://github.com/facebookresearch/DensePose) to generate masks. We use [detectron2](https://github.com/facebookresearch/detectron2) to generate densepose. Thanks to all the contributors!
+Our code is modified based on [VideoX-Fun](https://github.com/aigc-apps/VideoX-Fun/tree/main). We adopt [Wan2.1-I2V-14B](https://github.com/Wan-Video/Wan2.1) as the base model. We use [SCHP](https://github.com/GoGoDuck912/Self-Correction-Human-Parsing/tree/master), [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), and [DensePose](https://github.com/facebookresearch/DensePose) to generate masks. We use [detectron2](https://github.com/facebookresearch/detectron2) to generate densepose. We use [**Qwen/Qwen2.5-VL-7B-Instruct**](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) to generate the cloth caption and [**AniLines-Anime-Lineart-Extractor**](https://github.com/zhenglinpan/AniLines-Anime-Lineart-Extractor) to obtain the cloth line map. Thanks to all the contributors!
 
 ## 😊 License
 All the materials, including code, checkpoints, and demo, are made available under the [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. You are free to copy, redistribute, remix, transform, and build upon the project for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
