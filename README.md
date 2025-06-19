@@ -23,10 +23,12 @@
 - ✅ Release the source code
 - ✅ Release the inference demo and pretrained weights
 - ✅ Release the customized try-on utilities
+- [  ] Update Gradio App. 
 - [  ] Release the testing scripts
 - [  ] Release the training scripts
-- [  ] Release the second version of the pretrained model weights 
-- [  ] Update Gradio App. 
+- [  ] Release the second version of the pretrained model weights
+- [  ] Release lightweight weights — complete a video try-on in just one minute
+
 
 ## 😍 Installation
 
