@@ -32,3 +32,4 @@ RUN source ~/miniconda3/bin/activate && \
     pip install -r requirements.txt && \
     HF_ENDPOINT=https://hf-mirror.com huggingface-cli download LuckyLiGY/MagicTryOn --local-dir ./weights/MagicTryOn_14B_V1
 
+RUN echo conda activate magictryon >> ~/.bashrc

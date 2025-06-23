@@ -52,6 +52,8 @@ HF_ENDPOINT=https://hf-mirror.com huggingface-cli download LuckyLiGY/MagicTryOn 
 
 ```sh
 sudo docker build . -t magictryon
+
+sudo docker run --gpus all -it magictryon bash
 ```
 
 ## 😉 Demo Inference
