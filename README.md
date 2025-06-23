@@ -9,7 +9,6 @@
 <a href="https://vivocameraresearch.github.io/magictryon/"><img src='https://img.shields.io/badge/Project-Page-Green' alt='GitHub'></a>&nbsp;
 <a href="http://www.apache.org/licenses/LICENSE-2.0"><img src='https://img.shields.io/badge/License-CC BY--NC--SA--4.0-lightgreen?style=flat&logo=Lisence' alt='License'></a>&nbsp;
 
-
 **MagicTryOn** is a video virtual try-on framework based on a large-scale video diffusion Transformer. ***1) It adopts Wan2.1 diffusion Transformer as the backbone*** and ***2) employs full self-attention to model spatiotemporal consistency***. ***3) A coarse-to-fine garment preservation strategy is introduced, along with a mask-aware loss to enhance garment region fidelity***.
 <div align="center">
   <img src="asset/model.png" width="100%" height="100%"/>
@@ -47,6 +46,12 @@ Use the following command to download the weights:
 ```PowerShell
 cd Magic-TryOn
 HF_ENDPOINT=https://hf-mirror.com huggingface-cli download LuckyLiGY/MagicTryOn --local-dir ./weights/MagicTryOn_14B_V1
+```
+
+### Or Docker
+
+```sh
+sudo docker build . -t magictryon
 ```
 
 ## 😉 Demo Inference
