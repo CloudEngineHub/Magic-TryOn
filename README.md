@@ -1,3 +1,7 @@
+
+<div align="center">
+  <img src="asset/logo.png" width="66%" height="66%"/>
+</div>
 <h2 align="center"> 
   <a href="https://arxiv.org/abs/2505.21325v2">
     MagicTryOn: Harnessing Diffusion Transformer for Garment-Preserving Video Virtual Try-on
