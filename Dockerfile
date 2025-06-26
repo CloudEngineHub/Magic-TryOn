@@ -6,6 +6,8 @@ COPY . .
 
 SHELL ["/bin/bash", "-c"]
 
+RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb
+RUN sudo dpkg -i cuda-keyring_1.1-1_all.deb
 RUN apt update
 RUN apt install wget -y
 RUN apt install git -y
