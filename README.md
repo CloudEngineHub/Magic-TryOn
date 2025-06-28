@@ -27,12 +27,10 @@
 - ✅ Release the source code
 - ✅ Release the inference demo and pretrained weights
 - ✅ Release the customized try-on utilities
-- [  ] Update Gradio App. 
+- [  ] Update Gradio App and MagicTryOn_1.3B weights. 
 - [  ] Release the testing scripts
 - [  ] Release the training scripts
-- [  ] Release the second version of the pretrained model weights
-- [  ] Release lightweight weights — complete a video try-on in just one minute
-
+- [  ] Release the MagicTryOn_V2
 
 ## 😍 Installation
 
