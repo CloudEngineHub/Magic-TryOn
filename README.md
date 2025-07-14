@@ -1,7 +1,5 @@
 
-<div align="center">
-  <img src="asset/logo.png" width="66%" height="66%"/>
-</div>
+![logo](asset/logo.png)
 <h2 align="center"> 
   <a href="https://arxiv.org/abs/2505.21325v2">
     MagicTryOn: Harnessing Diffusion Transformer for Garment-Preserving Video Virtual Try-on
@@ -15,9 +13,7 @@
 
 
 **MagicTryOn** is a video virtual try-on framework based on a large-scale video diffusion Transformer. ***1) It adopts Wan2.1 diffusion Transformer as the backbone*** and ***2) employs full self-attention to model spatiotemporal consistency***. ***3) A coarse-to-fine garment preservation strategy is introduced, along with a mask-aware loss to enhance garment region fidelity***.
-<div align="center">
-  <img src="asset/model.png" width="100%" height="100%"/>
-</div>
+![method](asset/model.png)
 
 ## 📣 News 
 - **`2025/06/09`**: 🎉 We are excited to announce that the ***code*** of [**MagicTryOn**](https://github.com/vivoCameraResearch/Magic-TryOn/) have been released! Check it out! ***The weights are released ！！！***. You can download the weights from 🤗[**HuggingFace**](https://huggingface.co/LuckyLiGY/MagicTryOn).
