@@ -21,12 +21,10 @@
 
 ## ✅ To-Do List for MagicTryOn Release
 - ✅ Release the source code
-- ✅ Release the inference demo and pretrained weights
+- ✅ Release the inference demo and 14B pretrained weights
 - ✅ Release the customized try-on utilities
-- [  ] Update Gradio App and MagicTryOn_1.3B weights 
-- [  ] Release the testing scripts
-- [  ] Release the training scripts
-- [  ] Release the MagicTryOn_V2
+- ✅ Release the MagicTryOn-1.3B weights 
+- [  ] Release the MagicTryOn-Turbo
 
 ## 😍 Installation
 
