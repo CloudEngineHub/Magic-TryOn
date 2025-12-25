@@ -143,7 +143,7 @@ All the materials, including code, checkpoints, and demo, are made available und
 ## 🤩 Citation
 
 ```bibtex
-@misc{li2025magictryon,
+@misc{li2025magictryonharnessingdiffusiontransformer,
       title={MagicTryOn: Harnessing Diffusion Transformer for Garment-Preserving Video Virtual Try-on}, 
       author={Guangyuan Li and Siming Zheng and Hao Zhang and Jinwei Chen and Junsheng Luan and Binkai Ou and Lei Zhao and Bo Li and Peng-Tao Jiang},
       year={2025},
