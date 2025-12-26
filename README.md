@@ -16,6 +16,7 @@
 ![method](asset/model.png)
 
 ## 📣 News 
+- **`2025/12/26`**: 🎉 We have updated the MagicTryOn-1.3B 🤗[**HuggingFace**](https://huggingface.co/LuckyLiGY/MagicTryOn-1.3B).
 - **`2025/06/09`**: 🎉 We are excited to announce that the ***code*** of [**MagicTryOn**](https://github.com/vivoCameraResearch/Magic-TryOn/) have been released! Check it out! ***The weights are released ！！！***. You can download the weights from 🤗[**HuggingFace**](https://huggingface.co/LuckyLiGY/MagicTryOn).
 - **`2025/05/27`**: Our [**Paper on ArXiv**](https://arxiv.org/abs/2505.21325v2) is available 🥳!
 
