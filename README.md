@@ -27,6 +27,9 @@
 - ✅ Release the MagicTryOn-1.3B weights 
 - [  ] Release the MagicTryOn-Turbo
 
+## 🤝 Community Support
+The current version of MagicTryOn is trained on public datasets including VITON-HD, DressCode, and ViViD. If the community is interested in training MagicTryOn on in-the-wild datasets to better support real-world virtual try-on scenarios, please feel free to contact us. We are happy to provide the corresponding training scripts.
+
 ## 😍 Installation
 
 Create a conda environment & Install requirments 
